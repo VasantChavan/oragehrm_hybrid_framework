@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[ Init all pre-requisite to start the test ]]>
+    </line>
+    <line>
+      <![CDATA[ create extent reports to generaate html reports]]>
+    </line>
+    <line>
+      <![CDATA[ all pre-requisites are set:]]>
+    </line>
+    <line>
+      <![CDATA[ set system environment variable path for Chrome and launch the browser]]>
+    </line>
+    <line>
+      <![CDATA[ maximize  Chrome and navigate to application under test ]]>
+    </line>
+    <line>
+      <![CDATA[ Login page object are initilised ]]>
+    </line>
+    <line>
+      <![CDATA[ Enetr username to txt_username field ]]>
+    </line>
+    <line>
+      <![CDATA[ Enetr password to txt_password field ]]>
+    </line>
+    <line>
+      <![CDATA[click on loggin button ]]>
+    </line>
+    <line>
+      <![CDATA[user shoulld be landed on dashboard page ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19099" started-at="2023-01-12T09:38:10 IST" finished-at="2023-01-12T09:38:29 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19099" started-at="2023-01-12T09:38:10 IST" finished-at="2023-01-12T09:38:29 IST">
+      <class name="com.orangehrm.hybdridframework.testcases.LoginTC_01">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.orangehrm.hybdridframework.testcases.LoginTC_01@704d6e83]" name="init" is-config="true" duration-ms="1201" started-at="2023-01-12T09:38:08 IST" finished-at="2023-01-12T09:38:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ Init all pre-requisite to start the test ]]>
+            </line>
+            <line>
+              <![CDATA[ create extent reports to generaate html reports]]>
+            </line>
+            <line>
+              <![CDATA[ all pre-requisites are set:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.orangehrm.hybdridframework.testcases.LoginTC_01@704d6e83]" name="setUp" is-config="true" duration-ms="13581" started-at="2023-01-12T09:38:10 IST" finished-at="2023-01-12T09:38:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ set system environment variable path for Chrome and launch the browser]]>
+            </line>
+            <line>
+              <![CDATA[ maximize  Chrome and navigate to application under test ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTC_01()[pri:2, instance:com.orangehrm.hybdridframework.testcases.LoginTC_01@704d6e83]" name="loginTC_01" duration-ms="4371" started-at="2023-01-12T09:38:23 IST" finished-at="2023-01-12T09:38:28 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ Login page object are initilised ]]>
+            </line>
+            <line>
+              <![CDATA[ Enetr username to txt_username field ]]>
+            </line>
+            <line>
+              <![CDATA[ Enetr password to txt_password field ]]>
+            </line>
+            <line>
+              <![CDATA[click on loggin button ]]>
+            </line>
+            <line>
+              <![CDATA[user shoulld be landed on dashboard page ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTC_01 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.orangehrm.hybdridframework.testcases.LoginTC_01@704d6e83]" name="tearDown" is-config="true" duration-ms="689" started-at="2023-01-12T09:38:28 IST" finished-at="2023-01-12T09:38:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTC_01 status=SUCCESS method=LoginTC_01.loginTC_01()[pri:2, instance:com.orangehrm.hybdridframework.testcases.LoginTC_01@704d6e83] output= Login page object are initilised ]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="extentFlush()[pri:0, instance:com.orangehrm.hybdridframework.testcases.LoginTC_01@704d6e83]" name="extentFlush" is-config="true" duration-ms="419" started-at="2023-01-12T09:38:28 IST" finished-at="2023-01-12T09:38:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentFlush -->
+      </class> <!-- com.orangehrm.hybdridframework.testcases.LoginTC_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
