@@ -3,8 +3,6 @@
 <suite name="Suite">
 	<test name="Test">
 		<parameter name="browser" value="Chrome" />
-		<parameter name="url"
-			value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
 		<classes>
 			<class
 				name="com.orangehrm.hybdridframework.testcases.LoginTC_01" />

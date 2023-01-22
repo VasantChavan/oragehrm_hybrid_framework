@@ -24,6 +24,7 @@ import com.orangehrm.hybdridframework.utility.ConfigDataProvider;
 import com.orangehrm.hybdridframework.utility.ExcelDataProvider;
 import com.orangehrm.hybdridframework.utility.Helper;
 
+
 public class TestBase {
 
 	public WebDriver driver;
@@ -69,7 +70,7 @@ public class TestBase {
 
 		if (browser.equals("Chrome")) {
 			Reporter.log(" set system environment variable path for "+ browser +" and launch the browser",true);
-			System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browser.equals("Firefox")) {
 			Reporter.log(" set system environment variable path for "+ browser +" and launch the browser",true);
